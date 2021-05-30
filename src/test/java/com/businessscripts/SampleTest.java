@@ -19,6 +19,7 @@ public class SampleTest {
 		System.out.println("Navigated to "+driver.getCurrentUrl());
 		Thread.sleep(5000);
 		System.out.println("Person2 changes....");
+		System.out.println("Person1 changes....");
 		driver.close();
 	}
 
