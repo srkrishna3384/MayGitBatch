@@ -10,6 +10,7 @@ public class SampleTest {
 	@Test
 	public static void testOne() throws InterruptedException {
 //		System.setProperty("", "");
+		System.out.println("Person1 changes....");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser launched successfully...");
@@ -19,6 +20,7 @@ public class SampleTest {
 		System.out.println("Navigated to "+driver.getCurrentUrl());
 		Thread.sleep(5000);
 		System.out.println("Person2 changes....");
+		System.out.println("Person1 changes....");
 		System.out.println("Person1 changes....");
 		driver.close();
 	}
