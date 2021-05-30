@@ -18,6 +18,7 @@ public class SampleTest {
 		driver.get("https://www.rameshsoft.com");
 		System.out.println("Navigated to "+driver.getCurrentUrl());
 		Thread.sleep(5000);
+		System.out.println("Person2 changes....");
 		driver.close();
 	}
 
