@@ -14,6 +14,8 @@ public static void testTwo() throws InterruptedException {
 System.out.println("Person2 Modifications......");
 System.out.println("Person1 Modifications......");
 System.out.println("Person1 Modifications......");
+System.out.println("Person2 Modifications......");
+System.out.println("Person2 Modifications......");
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
 	System.out.println("Browser launched successfully...");
